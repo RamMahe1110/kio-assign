@@ -248,27 +248,37 @@
 
         // The data for our dataset
         data: {
-          labels: [
-            'January',
-            'February',
-            'March',
-            'April',
-            'May',
-            'June',
-            'July',
-          ],
           datasets: [
             {
-              label: 'My First dataset',
+              borderColor: '#e7f4fb',
               backgroundColor: '#e7f4fb',
-              borderColor: '#1a8fef',
-              data: [50, 40, 42, 40, 45, 38, 45],
+              data: [5, 4, 5, 5, 4, 5, 5, 5],
             },
           ],
         },
 
         // Configuration options go here
-        options: {},
+        options: {
+          legend: {
+            display: false,
+          },
+          scales: {
+            xAxes: [
+              {
+                gridLines: {
+                  color: 'rgba(0, 0, 0, 0)',
+                },
+              },
+            ],
+            yAxes: [
+              {
+                gridLines: {
+                  color: 'rgba(0, 0, 0, 0)',
+                },
+              },
+            ],
+          }
+        },
       })
     </script>
   </body>

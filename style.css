@@ -16,7 +16,6 @@ a {
 
 body {
   background: #f9f9f9;
-  /* background: #333; */
 }
 
 .container {
@@ -225,7 +224,7 @@ body {
 
 .main .container .result .left .top .msg {
   color: rgb(160, 160, 160);
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.2rem;
 }
 
@@ -302,7 +301,7 @@ body {
 }
 
 .graph .container .main-graph canvas {
-  width: 100%;
+  width: 100% !important;
   height: 400px !important;
 }
 
