@@ -588,12 +588,16 @@ body {
   .connect {
     margin: 0 0 100px 0;
   }
-  
+
   .connect .container .main .indi-con {
     padding: 15px 0;
   }
 
   .connect .container .main .indi-con .icon img {
     width: 20px;
+  }
+
+  .graph .container .main-graph {
+    padding: 20px;
   }
 }
